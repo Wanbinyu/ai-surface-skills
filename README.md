@@ -1,5 +1,8 @@
 # AI Surface Skills
 
+**English** | [中文](README.zh-CN.md)
+
+
 <p align="center">
   <strong>HTTP contracts evolve. Tool contracts should too.</strong>
 </p>
