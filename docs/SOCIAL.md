@@ -1,10 +1,13 @@
 # Social copy
 
-**https://github.com/Wanbinyu/ai-surface-skills**
+**https://github.com/Wanbinyu/ai-surface-skills**  
+**Sister:** https://github.com/Wanbinyu/api-platform-skills  
+
+**对外发帖时间：明天（Day2 短帖 + Day3 长帖）。今天只备文案。**
 
 ---
 
-## Day 1 — 短
+## Day 1 — 短（仓库首发 · 已可用）
 
 ```text
 开源 AI Surface Skills：给 Agent 用的 Tool/MCP 契约纪律包。

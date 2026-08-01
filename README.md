@@ -21,8 +21,15 @@
   <a href="#skills">Skills</a> ·
   <a href="#demo">Demo</a> ·
   <a href="docs/NOT-ANOTHER-MCP-BUILDER.md">vs mcp-builder</a> ·
-  <a href="docs/SHIP-3DAY.md">3-day ship plan</a>
+  <a href="docs/SOCIAL.md">share copy</a> ·
+  <a href="docs/PUBLISH-TOMORROW.md">publish tomorrow</a>
 </p>
+
+<p align="center">
+  <img src="assets/demo-tool-break.gif" alt="Demo: tool-schema-breaking-review blocks bad tool surface" width="800" />
+</p>
+
+<p align="center"><sub>Demo: <code>tool-schema-breaking-review</code> on <code>tools.v1</code> → <code>tools.v2-bad</code> → <strong>MERGE BLOCKED</strong></sub></p>
 
 ---
 
@@ -98,19 +105,22 @@ More: [docs/CLAUDE.md](docs/CLAUDE.md)
 
 ## Demo
 
-```powershell
-# Machine-readable tool list fixtures
-# examples/toy-tools/tools.v1.json  vs  tools.v2-bad.json
+<p align="center">
+  <img src="assets/demo-poster.png" alt="MERGE BLOCKED tool surface" width="720" />
+</p>
 
-# Ask your agent:
-```
+| Fixture | Role |
+|---------|------|
+| [`examples/toy-tools/tools.v1.json`](examples/toy-tools/tools.v1.json) | Shipped baseline |
+| [`examples/toy-tools/tools.v2-bad.json`](examples/toy-tools/tools.v2-bad.json) | Silent breaks + unsafe refund |
+| [`examples/sample-reports/tool-breaking-v1-vs-v2-bad.md`](examples/sample-reports/tool-breaking-v1-vs-v2-bad.md) | Golden report |
+| [`assets/demo-tool-break.gif`](assets/demo-tool-break.gif) | Animated walkthrough |
 
 ```text
 Compare examples/toy-tools/tools.v1.json with tools.v2-bad.json.
 Follow tool-schema-breaking-review. Give a merge verdict.
+Also run tool-permission-matrix on v2-bad.
 ```
-
-Golden report: [`examples/sample-reports/tool-breaking-v1-vs-v2-bad.md`](examples/sample-reports/tool-breaking-v1-vs-v2-bad.md)
 
 ---
 
