@@ -103,3 +103,12 @@ git push origin v0.1.0
 | Day 1 | 公开 URL 可 clone，`install.ps1 -Claude` 可用 |
 | Day 2 | 至少 1 个 demo 证据 + Release 说明 |
 | Day 3 | 至少 1 个公开社区帖发出 |
+
+## Day1 executed
+
+- Public: https://github.com/Wanbinyu/ai-surface-skills
+- Visibility: PUBLIC
+- Tag/Release: v0.1.0
+- Topics: agent-skills, mcp, claude-code, tools, function-calling, codex, skills
+
+Next: Day2 demo polish (optional GIF), Day3 community posts (docs/SOCIAL.md).
