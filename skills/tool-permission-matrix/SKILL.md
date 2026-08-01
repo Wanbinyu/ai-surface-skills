@@ -10,6 +10,11 @@ description: >
 
 > Every tool is a privilege. Default deny for write/money/network.
 
+
+## Overview
+
+Map tools to privileges and least-privilege agent modes.
+
 ## Steps
 
 1. Inventory tools.

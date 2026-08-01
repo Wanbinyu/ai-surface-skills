@@ -11,6 +11,11 @@ description: >
 
 > Merge verdict for agent-facing tools - not HTTP OpenAPI (use api-platform-skills for that).
 
+
+## Overview
+
+Classify tool/MCP schema deltas and produce a merge verdict with migrations.
+
 ## Catalog
 
 **Usually breaking**

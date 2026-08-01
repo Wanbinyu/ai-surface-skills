@@ -12,6 +12,11 @@ description: >
 
 > Router only. One primary skill. Never load all nine.
 
+
+## Overview
+
+Pick the smallest AI Surface skill for the task. Do not load the whole pack.
+
 ## Routing
 
 | Intent | Primary | Optional |

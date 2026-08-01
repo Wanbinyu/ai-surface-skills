@@ -10,6 +10,11 @@ description: >
 
 > You already have an MCP. Are its tools safe for an agent to see?
 
+
+## Overview
+
+Audit an existing MCP tools/list for safety and clarity (not server scaffolding).
+
 ## Steps
 
 1. Obtain tool list (MCP `tools/list` dump or docs).

@@ -8,6 +8,11 @@ description: >
 
 # Skill vs MCP Choice
 
+
+## Overview
+
+Choose skill, MCP, both, or plain code for a capability.
+
 ## Quick rules
 
 | Need | Prefer |

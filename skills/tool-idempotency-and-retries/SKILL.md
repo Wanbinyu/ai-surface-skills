@@ -10,6 +10,11 @@ description: >
 
 > Agents retry. Networks flake. Side effects must not double.
 
+
+## Overview
+
+Make write tools safe under agent retries and timeouts.
+
 ## Steps
 
 1. Classify each tool: pure read | idempotent write | unsafe create | external side effect.

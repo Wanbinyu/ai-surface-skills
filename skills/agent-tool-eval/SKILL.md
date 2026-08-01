@@ -10,6 +10,11 @@ description: >
 
 > If you cannot state pass/fail, you are guessing.
 
+
+## Overview
+
+Define a small pass/fail task pack for tool-use quality.
+
 ## Steps
 
 1. Pick 3-10 tasks (natural language goals).

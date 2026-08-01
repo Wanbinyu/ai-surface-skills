@@ -10,6 +10,11 @@ description: >
 
 > If undo is hard or money moves, a human must say yes.
 
+
+## Overview
+
+Require human confirmation for high-risk tool calls.
+
 ## Steps
 
 1. List candidate tools (from permission matrix or inventory).
