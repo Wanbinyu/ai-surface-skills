@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+.claude/skills/
+.agents/skills/
+.cursor/skills/
+.github/skills/
+__pycache__/
+*.pyc

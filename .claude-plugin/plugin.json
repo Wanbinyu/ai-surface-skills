@@ -1,0 +1,13 @@
+{
+  "name": "ai-surface-skills",
+  "version": "0.1.0",
+  "description": "Agent skills for tool/MCP contract design, breaking review, idempotency, permissions, human approval gates, and tool-use eval. Not an MCP server scaffold tutorial.",
+  "author": {
+    "name": "Wanbinyu",
+    "url": "https://github.com/Wanbinyu"
+  },
+  "homepage": "https://github.com/Wanbinyu/ai-surface-skills",
+  "repository": "https://github.com/Wanbinyu/ai-surface-skills",
+  "license": "MIT",
+  "keywords": ["mcp", "tools", "agent-skills", "function-calling", "claude-code"]
+}

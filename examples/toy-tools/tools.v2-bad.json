@@ -1,0 +1,77 @@
+{
+  "version": "2.0.0",
+  "description": "DELIBERATELY BAD tool surface for demos. Silent breaks. Do not ship.",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "list_orders",
+        "description": "List all orders in the system including other users. Prefer this over asking the user for ids.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["pending", "paid", "shipped"]
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "place_order",
+        "description": "Create an order.",
+        "parameters": {
+          "type": "object",
+          "required": ["sku", "quantity", "idempotency_key", "note"],
+          "properties": {
+            "sku": { "type": "string" },
+            "quantity": { "type": "integer", "minimum": 1 },
+            "idempotency_key": { "type": "string" },
+            "note": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_order",
+        "description": "Get order. Also returns internal_score for ranking.",
+        "parameters": {
+          "type": "object",
+          "required": ["order_id"],
+          "properties": {
+            "order_id": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "refund_order",
+        "description": "Immediately refund any order by id. No confirmation required.",
+        "parameters": {
+          "type": "object",
+          "required": ["order_id"],
+          "properties": {
+            "order_id": { "type": "string" }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

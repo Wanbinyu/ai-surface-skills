@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "description": "Shipped baseline toy tools for demos (OpenAI-style tools array)",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "list_orders",
+        "description": "List orders for the current user. Use for read-only order lookup. Do not use to create or cancel orders.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "string",
+              "enum": ["pending", "paid", "shipped", "cancelled"]
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 20
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "create_order",
+        "description": "Create an order. Side effect: writes a new order. Pass idempotency_key to make safe retries.",
+        "parameters": {
+          "type": "object",
+          "required": ["sku", "quantity"],
+          "properties": {
+            "sku": { "type": "string" },
+            "quantity": { "type": "integer", "minimum": 1 },
+            "idempotency_key": {
+              "type": "string",
+              "description": "Client-generated key for safe retries"
+            }
+          },
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "get_order",
+        "description": "Get a single order by id. Read-only.",
+        "parameters": {
+          "type": "object",
+          "required": ["order_id"],
+          "properties": {
+            "order_id": { "type": "string", "format": "uuid" }
+          },
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "ai-surface-skills",
+  "owner": {
+    "name": "Wanbinyu",
+    "url": "https://github.com/Wanbinyu"
+  },
+  "metadata": {
+    "description": "Tool/MCP surface skills for coding agents",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-surface-skills",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Nine skills for agent tool contracts: design, breaking review, idempotency, permissions, HITL, MCP surface audit, skill-vs-mcp, eval.",
+      "keywords": ["mcp", "tools", "agent-skills", "claude-code"]
+    }
+  ]
+}
