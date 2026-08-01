@@ -146,3 +146,13 @@ See **[docs/SHIP-3DAY.md](docs/SHIP-3DAY.md)** — local complete now; public re
 ## License
 
 MIT · [Wanbinyu](https://github.com/Wanbinyu)
+
+---
+
+## One skill = one project (optional)
+
+Prefer installing a **single skill**? Each skill is also exported as a standalone project under `G:\skill\solo\<name>` and can be published as `skill-<name>` on GitHub.
+
+- Local catalog: `G:\skill\solo\CATALOG.md` / `G:\skill\SOLO-MODEL.md`
+- Bulk install: this collection repo (all skills at once)
+
