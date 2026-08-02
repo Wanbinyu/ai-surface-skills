@@ -1,29 +1,21 @@
-# Day3 发布包（明天直接复制发出）
+# Day3 发布包（复制即发）
 
-> **状态：内容已备好 · 请明天再发帖**  
-> 准备日期：2026-08-02  
-> 建议发出日：2026-08-03  
+> **一句话：** 两套 Agent Skills 合集 + 19 个独立 skill 仓库 · MIT · 中英文档  
+> 建议发出日：明天（文案已齐）
 
-发帖前 2 分钟自检：
+### 发帖前自检（30 秒）
 
-```powershell
-gh repo view Wanbinyu/ai-surface-skills --json url,visibility
-# 应显示 PUBLIC
-# 打开浏览器确认 Demo GIF 能显示：
-# https://github.com/Wanbinyu/ai-surface-skills
-```
+1. 打开 https://github.com/Wanbinyu/ai-surface-skills — 顶部应有 Demo GIF  
+2. 打开 https://github.com/Wanbinyu/api-platform-skills — 安装与试用提示词在最上方  
 
----
-
-## 一、今天（准备日）已完成，明天不用再写代码
+### 核心链接（置顶可复制）
 
 | 项 | 链接 |
 |----|------|
 | Tool/MCP 合集 | https://github.com/Wanbinyu/ai-surface-skills |
 | HTTP 合集 | https://github.com/Wanbinyu/api-platform-skills |
 | 19 个独立 skill | https://github.com/Wanbinyu?tab=repositories&q=skill- |
-| Demo | README 内 `demo-tool-break.gif` |
-| 中英 README | 合集 + 每个 solo 均有 `README.md` / `README.zh-CN.md` |
+| 爆款示例 skill | https://github.com/Wanbinyu/skill-breaking-change-review |
 
 ---
 
