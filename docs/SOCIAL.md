@@ -2,8 +2,12 @@
 
 **https://github.com/Wanbinyu/ai-surface-skills**  
 **Sister:** https://github.com/Wanbinyu/api-platform-skills  
+**19 solo skills:** https://github.com/Wanbinyu?tab=repositories&q=skill-
 
-**对外发帖时间：明天（Day2 短帖 + Day3 长帖）。今天只备文案。**
+**Day3 完整发布包（推荐明天只打开这一份）：** [DAY3-READY.md](DAY3-READY.md)
+
+**Day2 已完成（2026-08-02）：** 合集 Demo + 19 个 `skill-*` 公开仓库。  
+**Day3 发帖：建议 2026-08-03**（文案已备齐，见 DAY3-READY）。
 
 ---
 
