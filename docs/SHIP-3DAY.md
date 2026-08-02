@@ -52,3 +52,15 @@
 | Day 1 | 公开 URL 可 clone | **已满足** |
 | Day 2 | Demo 可见 + 短帖 | **明天** |
 | Day 3 | ≥1 社区长帖 | **明天** |
+
+---
+
+## Day2 executed (2026-08-02)
+
+- Demo GIF live on README: assets/demo-tool-break.gif
+- Release notes refreshed with demo section
+- Solo skill projects published (see G:\skill\solo\CATALOG.md / Day2 batch)
+- Short-post copy ready in docs/SOCIAL.md and docs/PUBLISH-TOMORROW.md
+
+**Public posts (community):** use Day2 short copy today; Day3 long posts still optional tonight or later.
+

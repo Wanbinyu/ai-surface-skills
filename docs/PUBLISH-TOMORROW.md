@@ -126,3 +126,10 @@ git status
 git pull
 gh repo view Wanbinyu/ai-surface-skills --json url,visibility
 ```
+
+
+## Day2 done (2026-08-02)
+
+- Monorepo demo/release confirmed.
+- Solo skill GitHub publish batch started/finished this day.
+
