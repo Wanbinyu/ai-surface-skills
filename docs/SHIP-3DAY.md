@@ -64,3 +64,13 @@
 
 **Public posts (community):** use Day2 short copy today; Day3 long posts still optional tonight or later.
 
+
+---
+
+## Day3 open-source confirm (2026-08-03)
+
+- All collection + solo skill repos verified **PUBLIC** + MIT
+- Monorepos synced with origin/main
+- 19 solo skills: all remote up to date
+- Community post copy: still in docs/DAY3-READY.md (paste when you post)
+
