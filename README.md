@@ -90,7 +90,7 @@ Each skill: **triggers · steps · exit criteria · anti-patterns · output temp
 | **Claude user (recommended)** | `.\scripts\install.ps1 -Claude` |
 | Project-local | `.\scripts\install.ps1 -Project` |
 | Plugin | `/plugin marketplace add Wanbinyu/ai-surface-skills` |
-| **Single skill only** | e.g. https://github.com/Wanbinyu/skill-tool-schema-breaking-review |
+| **Single skill only** | Install the collection, then copy or link the needed `skills/<name>` directory |
 
 ---
 
@@ -101,7 +101,9 @@ Each skill: **triggers · steps · exit criteria · anti-patterns · output temp
 | [api-platform-skills](https://github.com/Wanbinyu/api-platform-skills) | HTTP / OpenAPI |
 | **This** | Tool / MCP for **agents** |
 
-All solo skills: https://github.com/Wanbinyu?tab=repositories&q=skill-
+The former standalone `skill-*` repositories are archived historical links for URL compatibility. New work and new installs should use this collection.
+
+This repository is the canonical source for the 9 skills listed above.
 
 ---
 
